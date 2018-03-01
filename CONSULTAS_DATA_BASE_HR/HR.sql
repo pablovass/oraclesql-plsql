@@ -98,14 +98,29 @@ select FIRST_name, LAST_name, salary
 from EMPLOYEES
 where DEPARTMENT_ID IS NOT NULL;
 
+/*tabla dual 
+*/
+select * from dual ;
+select 3 *4 from dual ;
 
+/*
+ver la fecha 
+*/
+SELECT SYSDATE FROM dual ;
 
+/* ver que usuario esta haciendo la consulta */
 
+select user from dual ;
 
+/* concadenar consultas */
+SELECT 'ESTA ES UNA CADENA '|| '' || 'ESTA ES OTRA CADENA '
+FROM DUAL;
 
+SELECT ('USUARIO: ' || USER || ', EL DIA DE HOY: ' || SYSDATE ) AS "ENCABEZADO "  
+FROM DUAL;
 
-
-
+-- COMO ESCRIBIR I AM DE LA FORMA CORTA
+SELECT 'I''m '|| user from dual;
 
 
 
