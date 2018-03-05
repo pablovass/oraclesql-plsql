@@ -1,0 +1,37 @@
+tabla categoria 
+create table Categories (
+CategoryID int  not null auto_increment, 	
+CategoryName char (20),	
+Description char (100),
+primary key (CategoryID)
+)
+
+insert into categories (CategoryName,	Description)
+values ('Beverages',	'Soft drinks, coffees, teas, beers, and ales')
+
+	insert into categories (CategoryName,	Description)
+values('Condiments',	'Sweet and savory sauces, relishes, spreads, and seasonings')
+3	
+insert into categories (CategoryName,	Description)
+values('Confections',	'Desserts, candies, and sweet breads')
+4
+insert into categories (CategoryName,	Description)
+values	('Dairy', 'Products	Cheeses')
+5	
+insert into categories (CategoryName,	Description)
+values('Grains/Cereals','Breads, crackers, pasta, and cereal')
+
+6
+	
+insert into categories (CategoryName,	Description)
+values('Meat/Poultry',	'Prepared meats')
+7	
+
+insert into categories (CategoryName,	Description)
+values('Produce',	'Dried fruit and bean curd')
+8	
+insert into categories (CategoryName,	Description)
+values('Seafood',	'Seaweed and fish')
+
+
+select* from categories

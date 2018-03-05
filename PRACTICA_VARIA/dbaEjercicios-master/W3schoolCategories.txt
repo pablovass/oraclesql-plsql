@@ -1,0 +1,61 @@
+//tabla categoria 
+
+
+create table Categories (
+CategoryID int  not null auto_increment, 	
+CategoryName char (20),	
+Description char (100),
+primary key (CategoryID)
+)
+
+// los insert into 
+
+1
+insert into Categories (CategoryName,	Description)
+values ('Beverages',	'Soft drinks, coffees, teas, beers, and ales')
+2
+insert into Categories (CategoryName,	Description)
+values('Condiments',	'Sweet and savory sauces, relishes, spreads, and seasonings')
+3	
+insert into Categories (CategoryName,	Description)1
+insert into Categories (CategoryName,	Description)
+values ('Beverages',	'Soft drinks, coffees, teas, beers, and ales')
+2
+insert into Categories (CategoryName,	Description)
+values('Condiments',	'Sweet and savory sauces, relishes, spreads, and seasonings')
+3	
+insert into Categories (CategoryName,	Description)
+values('Confections',	'Desserts, candies, and sweet breads')
+4
+insert into Categories (CategoryName,	Description)
+values	('Dairy', 'Products	Cheeses')
+5	
+insert into Categories (CategoryName,	Description)
+values('Grains/Cereals','Breads, crackers, pasta, and cereal')
+6
+insert into Categories (CategoryName,	Description)
+values('Meat/Poultry',	'Prepared meats')
+7	
+insert into Categories (CategoryName,	Description)
+values('Produce',	'Dried fruit and bean curd')
+8	
+insert into Categories (CategoryName,	Description)
+values('Seafood',	'Seaweed and fish')
+
+values('Confections',	'Desserts, candies, and sweet breads')
+4
+insert into Categories (CategoryName,	Description)
+values	('Dairy', 'Products	Cheeses')
+5	
+insert into Categories (CategoryName,	Description)
+values('Grains/Cereals','Breads, crackers, pasta, and cereal')
+6
+insert into Categories (CategoryName,	Description)
+values('Meat/Poultry',	'Prepared meats')
+7	
+insert into Categories (CategoryName,	Description)
+values('Produce',	'Dried fruit and bean curd')
+8	
+insert into Categories (CategoryName,	Description)
+values('Seafood',	'Seaweed and fish')
+
