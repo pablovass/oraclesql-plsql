@@ -1,3 +1,7 @@
+-- Select rows from a Table or View 'TableOrViewName' in schema 'SchemaName'
+SELECT * FROM SchemaName.TableOrViewName
+WHERE 	/* add search conditions here */
+GO
 --drop table alumno
 --go
 --drop table curso
@@ -21,7 +25,7 @@
 
 --insert into curso values( 1, 'de la tarde')
 --go
---insert into curso values( 2, 'de la mañana')
+--insert into curso values( 2, 'de la maï¿½ana')
 --go
 --insert into curso values( 3, 'de la noche')
 --go
