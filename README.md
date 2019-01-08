@@ -1,3 +1,4 @@
+
 # sql oracle 
 
 propiedad: http://www.pablovallejos.com  
